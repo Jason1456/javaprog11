@@ -1,0 +1,41 @@
+/**********************************************************************
+  
+  Program Title : Demonstrating Identifier Rules in Java
+  File Name: "IdentifierRules.java"
+  
+  Programmer : Sathish Sarma
+  Contact Details : sathish.sarma@newinti.edu.my
+  Date : 04 September 2025
+  
+ **********************************************************************/
+
+
+class SwitchClass { // Renamed from 'switch'
+    String switchStatus = "On"; // Renamed variable to lowercase
+}
+
+public class IdentifierRules {
+    
+    public static void startMethod() {  // Renamed from invalid method
+        System.out.println("Static Method Output");
+    }
+
+    public static void main(String[] args) {
+
+        int secondPlace = 2;  // renamed from 2ndPlace
+        int firstName = 10;   // camelcase instead of underscore
+        int price = 99;
+        int userName = 25;
+
+        int classValue = 1;   // cannot use 'class'
+        int doubleValue = 3;  // cannot use 'double'
+
+        int score = 10;
+        System.out.println(score);
+        
+        System.out.println("This program is executed after all errors are rectified.");
+
+        startMethod();  // Call corrected method
+    }
+
+}
